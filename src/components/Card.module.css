@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  min-width: 150px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 0 10px 10px;
+}
+
+.input {
+  display: inline;
+  margin-right: 10px;
+}
+
+.input:hover {
+  cursor: pointer;
+}
+
+.active {
+  color: blue;
+}
